@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="brabim.png" type="image/png">
+  <title>Brabim's Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #00ff99;
+      font-family: 'Share Tech Mono', monospace;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      user-select: none;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+      text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+    }
+
+    h2 {
+      color: #ff0066;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 5px #ff0066;
+    }
+
+    .glitch {
+      position: relative;
+      color: #00ff99;
+      font-weight: 900;
+      font-size: 1.5rem;
+      animation: glitch 1.5s infinite;
+    }
+
+    @keyframes glitch {
+      0% {
+        text-shadow:
+          2px 0 #ff0066,
+          -2px 0 #00ffff;
+      }
+      20% {
+        text-shadow:
+          -2px 0 #ff0066,
+          2px 0 #00ffff;
+      }
+      40% {
+        text-shadow:
+          2px 2px #ff0066,
+          -2px -2px #00ffff;
+      }
+      60% {
+        text-shadow:
+          -2px 2px #ff0066,
+          2px -2px #00ffff;
+      }
+      80% {
+        text-shadow:
+          2px -2px #ff0066,
+          -2px 2px #00ffff;
+      }
+      100% {
+        text-shadow:
+          2px 0 #ff0066,
+          -2px 0 #00ffff;
+      }
+    }
+
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background: #111;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 0 30px #00ff99;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+      color: #aaffcc;
+    }
+
+    a {
+      color: #ff0066;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #00ff99;
+      text-shadow: 0 0 8px #00ff99;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #00ff9955;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #444;
+      user-select: text;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.5rem;
+      border: 2px solid #00ff99;
+      border-radius: 8px;
+      color: #00ff99;
+      text-transform: uppercase;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+
+    .btn:hover {
+      background: #00ff99;
+      color: #111;
+      box-shadow: 0 0 15px #00ff99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Brabim</h1>
+    <h2 class="glitch">CyberSec & Enthusiast</h2>
+
+    <p>Hey, I’m <strong>Brabim</strong>, a passionate cyber sec student diving deep into cybersecurity, data science, and all things tech. Wanna check out my projects? Scroll down!</p>
+
+    <h3>Skills & Tools</h3>
+    <ul>
+      <li>Python | React Native | Flask</li>
+      <li>Penetration Testing | Network Security</li>
+      <li>Linux (Kali, Debian, Fedora, Arch)</li>
+    </ul>
+    <h3>Currently using OPERATING SYSTEMS: </h3>
+    <ul>
+        <li>-> Windows-11 25H2</li>
+        <li>-> UBUNTU 25.10 </li> 
+        <li>-> Fedora Workstation 43 (KDE edition)</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <ul>
+      <li><a href="https://github.com/3RA31M/mac_spoofer" target="_blank" rel="noopener noreferrer">MAC address spoofer</a></li>
+      <li><a href="https://github.com/3RA31M/retro-vault" target="_blank" rel="noopener noreferrer">retro-vault</a></li>
+      <li><a href="https://github.com/3RA31M/vanish_node" target="_blank" rel="noopener noreferrer">vanish-node</a></li>
+      <li><a href=" https://github.com/3RA31M/nmap-mini" target="_blank" rel="noopener noreferrer">NMAP MINI</a></li> 
+      <li><a href="https://github.com/3RA31M/password_check" target="_blank" rel="noopener noreferrer">PASSWORD CHECKER including (BREACH RECORDS)</a></li>           
+      <li><a href="https://github.com/3RA31M/portfolio" target="_blank" rel="noopener noreferrer">portfolio</a></li>
+    </ul>
+
+    <a href="https://t.me/br4b1m" class="btn">Hit Me Up At Telegram!</a>
+    <a href="mailto:brabim46@proton.me" class="btn">Email Me</a>
+    <br />
+    <a href="https://github.com/3RA31M" target="_blank" rel="noopener noreferrer" class="btn" style="margin-top: 1rem;">Check My GitHub</a>
+    <a href="https://www.instagram.com/brabim__03" class="btn">Hit Me Up At Instagram!</a>
+  </div>
+
+  <footer>© 2025 Brabim — Made with vibes and caffeine ☕</footer>
+</body>
+</html>
